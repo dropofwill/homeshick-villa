@@ -1,0 +1,115 @@
+# Casks
+tap "homebrew/cask"
+
+cask "google-chrome"
+cask "firefox"
+
+cask "discord"
+
+cask "docker-edge"
+cask "intellij-idea-ce"
+cask "iterm2-nightly"
+cask "macvim"
+cask "sequel-pro"
+cask "squirrelsql"
+cask "vagrant"
+cask "virtualbox"
+cask "virtualbox-extension-pack"
+cask "visual-studio-code"
+
+cask "font-fira-code"
+
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "qlprettypatch"
+cask "qlstephen"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "webpquicklook"
+
+cask "spectacle"
+
+cask "spotify"
+cask "vlc"
+
+cask "zsa-wally"
+
+cask "zwift"
+
+# Regular
+
+# K8S
+helm
+istioctl
+kubectl-argo-rollouts
+# Kubernetes TUI dash
+k9s
+# Kubernetes in docker locally
+kind
+# Argo rollout support for kubectl
+kubernetes-cli
+kubernetes-helm
+
+# AWS
+aws-iam-authenticator
+aws-shell
+eksctl
+
+# Progamming languages
+ammonite-repl
+gradle
+maven
+micronaut
+mill
+sbt
+
+# General Utils
+## Count lines of code
+cloc
+browserpass
+# GNU version of shell utils
+coreutils
+# httpie interface with curl backend
+curlie
+# find alternative
+fd
+fzf
+gawk
+git
+git-extras
+graphviz
+# Json grep, like jq sort of
+gron
+homeshick
+htop
+httpie
+hub
+jq
+# load testing tool
+k6
+mitmproxy
+# disk usage tui
+ncdu
+neovim
+# Experimental shell to play with
+nushell
+pandoc
+parallel
+pass
+pinentry
+pinentry-mac
+pwgen
+# query csv with sql
+q
+readline
+reminders-cli
+ripgrep
+sqlite
+the_silver_searcher
+toxiproxy
+trash
+tree
+wget
+yq
+zsh
