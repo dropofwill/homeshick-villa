@@ -68,8 +68,6 @@ brew "sbt"
 brew "cloc"
 # GNU version of shell utils
 brew "coreutils"
-# httpie interface with curl backend
-brew "rs/tap/curlie"
 # find alternative
 brew "fd"
 brew "fzf"
@@ -115,3 +113,7 @@ brew "toxiproxy"
 
 tap "amar1729/formulae"
 brew "browserpass"
+
+# httpie interface with curl backend
+tap "rs/tap"
+brew "rs/tap/curlie"
