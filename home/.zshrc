@@ -23,8 +23,8 @@ bindkey "^R" history-incremental-search-backward
 
 # Bootstrap homeshick
 source "$HOME/.homesick/repos/homeshick/homeshick.sh"
-source $HOME/Code/scripts/zfunctions.sh
-source $HOME/Code/scripts/zalias.sh
+source $HOME/.zfunctions.sh
+source $HOME/.zalias.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
