@@ -11,7 +11,7 @@ alias java9='export JAVA_HOME=$(/usr/libexec/java_home -v 1.9)'
 alias java10='export JAVA_HOME=$(/usr/libexec/java_home -v 10.0)'
 alias java11='export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.2)'
 alias javaGraal11='export JAVA_HOME=$(/usr/libexec/java_home -v 11.0.7)'
-java11
+# java11
 
 # for native-image support
 # export PATH=/Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.1.0/Contents/Home/bin:$PATH
@@ -19,7 +19,6 @@ java11
 export PATH="$PATH:/Users/wpaul/Library/Application Support/Coursier/bin"
 
 alias gcnv='git commit --no-verify'
-alias kk='kubectl'
 
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 # export MANPAGER="col -b | nvim --noplugin -c 'set ft=man ts=8 nomod nolist nonu noma' -"
@@ -90,10 +89,13 @@ function use_ruby() {
   source /usr/local/share/chruby/auto.sh
 }
 
-function use_asdf() {
-  . $HOME/.asdf/asdf.sh
-  . $HOME/.asdf/completions/asdf.bash
-}
+# $(brew --prefix asdf)/asdf.sh
+# $(brew --prefix asdf)/completion/asdf.bash
+
+# function use_asdf() {
+#   . $HOME/.asdf/asdf.sh
+#   . $HOME/.asdf/completions/asdf.bash
+# }
 
 export PATH="/usr/local/opt/scala@2.12/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"

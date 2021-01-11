@@ -26,6 +26,10 @@ source "$HOME/.homesick/repos/homeshick/homeshick.sh"
 source $HOME/.zfunctions.sh
 source $HOME/.zalias.sh
 
+# asdf config
+. $(brew --prefix asdf)/asdf.sh
+. ~/.asdf/plugins/java/set-java-home.zsh
+
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 stty sane
