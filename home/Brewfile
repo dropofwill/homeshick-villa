@@ -40,76 +40,76 @@ cask "zwift"
 # Regular
 
 # K8S
-helm
-istioctl
-kubectl-argo-rollouts
+brew "helm"
+brew "istioctl"
+brew "kubectl-argo-rollouts"
 # Kubernetes TUI dash
-k9s
+brew " k9s"
 # Kubernetes in docker locally
-kind
+brew " kind"
 # Argo rollout support for kubectl
-kubernetes-cli
-kubernetes-helm
+brew "kubernetes-cli"
+brew "kubernetes-helm"
 
 # AWS
-aws-iam-authenticator
-aws-shell
-eksctl
+brew "aws-iam-authenticator"
+brew "aws-shell"
+brew "eksctl"
 
 # Progamming languages
-ammonite-repl
-gradle
-maven
-micronaut
-mill
-sbt
+brew "ammonite-repl"
+brew "gradle"
+brew "maven"
+brew "micronaut"
+brew "mill"
+brew "sbt"
 
 # General Utils
 ## Count lines of code
-cloc
-browserpass
+brew "cloc"
+brew "browserpass"
 # GNU version of shell utils
-coreutils
+brew "coreutils"
 # httpie interface with curl backend
-curlie
+brew "curlie"
 # find alternative
-fd
-fzf
-gawk
-git
-git-extras
-graphviz
+brew "fd"
+brew "fzf"
+brew "gawk"
+brew "git"
+brew "git-extras"
+brew "graphviz"
 # Json grep, like jq sort of
-gron
-homeshick
-htop
-httpie
-hub
-jq
+brew "gron"
+brew "homeshick"
+brew "htop"
+brew "httpie"
+brew "hub"
+brew "jq"
 # load testing tool
-k6
-mitmproxy
+brew "k6"
+brew "mitmproxy"
 # disk usage tui
-ncdu
-neovim
+brew "ncdu"
+brew "neovim"
 # Experimental shell to play with
-nushell
-pandoc
-parallel
-pass
-pinentry
-pinentry-mac
-pwgen
+brew "nushell"
+brew "pandoc"
+brew "parallel"
+brew "pass"
+brew "pinentry"
+brew "pinentry-mac"
+brew "pwgen"
 # query csv with sql
-q
-readline
-reminders-cli
-ripgrep
-sqlite
-the_silver_searcher
-toxiproxy
-trash
-tree
-wget
-yq
-zsh
+brew "q"
+brew "readline"
+brew "reminders-cli"
+brew "ripgrep"
+brew "sqlite"
+brew "the_silver_searcher"
+brew "toxiproxy"
+brew "trash"
+brew "tree"
+brew "wget"
+brew "yq"
+brew "zsh"
