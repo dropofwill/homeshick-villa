@@ -42,11 +42,10 @@ cask "zwift"
 # K8S
 brew "helm"
 brew "istioctl"
-brew "kubectl-argo-rollouts"
 # Kubernetes TUI dash
-brew " k9s"
+brew "k9s"
 # Kubernetes in docker locally
-brew " kind"
+brew "kind"
 # Argo rollout support for kubectl
 brew "kubernetes-cli"
 brew "kubernetes-helm"
@@ -67,11 +66,10 @@ brew "sbt"
 # General Utils
 ## Count lines of code
 brew "cloc"
-brew "browserpass"
 # GNU version of shell utils
 brew "coreutils"
 # httpie interface with curl backend
-brew "curlie"
+brew "rs/tap/curlie"
 # find alternative
 brew "fd"
 brew "fzf"
@@ -113,3 +111,6 @@ brew "tree"
 brew "wget"
 brew "yq"
 brew "zsh"
+
+tap "amar1729/formulae"
+brew "browserpass"
